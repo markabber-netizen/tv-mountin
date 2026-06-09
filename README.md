@@ -1,16 +1,17 @@
-# TV Mountin' Man Static Website
+# TV Mountin' Man Final Approved Website
 
-This is a static HTML/CSS version of the TV Mountin' Man website.
-
-No React. No Vite. No build step required.
+Static HTML/CSS website. No React, no Vite, no build step.
 
 Upload these files to GitHub:
-
 - index.html
 - styles.css
 - robots.txt
 - sitemap.xml
 - README.md
-- tv-mountin-man-brand.png, if present
+- tv-mountin-man-brand.png
 
-Then Vercel should deploy it directly.
+Important: delete old React files/folders first:
+- src/
+- public/
+- package.json
+- vercel.json
