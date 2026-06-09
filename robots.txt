@@ -1,4 +1,13 @@
-User-agent: *
-Allow: /
+# TV Mountin' Man Website
 
-Sitemap: https://tvmountinman.com/sitemap.xml
+Static HTML/CSS website matching the approved TV Mountin' Man mockup.
+
+Upload all files and folders to the root of the GitHub repo:
+- index.html
+- styles.css
+- robots.txt
+- sitemap.xml
+- README.md
+- images/
+
+No React, no Vite, no build step.
