@@ -1,36 +1,16 @@
-# TV Mountin' Man Website
+# TV Mountin' Man Static Website
 
-Deployable React/Vite website for TV Mountin' Man.
+This is a static HTML/CSS version of the TV Mountin' Man website.
 
-## Includes
-- Home page
-- Services section
-- Local service-area SEO section
-- Gallery/project content section
-- Reviews section
-- Quote landing page with lead form
-- About Me page
-- SEO metadata
-- Vercel config
+No React. No Vite. No build step required.
 
-## Lead Form
-The form currently sends leads to:
+Upload these files to GitHub:
 
-markabber@gmail.com
+- index.html
+- styles.css
+- robots.txt
+- sitemap.xml
+- README.md
+- tv-mountin-man-brand.png, if present
 
-It uses FormSubmit:
-https://formsubmit.co/
-
-The first form submission may require email confirmation.
-
-## Deploy on Vercel
-1. Upload this folder to GitHub.
-2. Connect the GitHub repo to Vercel.
-3. Set the domain to tvmountinman.com.
-4. Update phone number placeholders before going live.
-
-## Important edits before launch
-- Replace 781-555-0123 with your real phone number.
-- Add real job photos to the Gallery section.
-- Replace sample reviews with real reviews.
-- Update email to mark@tvmountinman.com once you set up Google Workspace.
+Then Vercel should deploy it directly.
